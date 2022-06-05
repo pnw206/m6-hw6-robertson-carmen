@@ -1,0 +1,113 @@
+#body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/45degreee_fabric.png");
+    background-repeat: repeat;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    font-size: 24px;
+    padding: 15px;
+    display: flex;
+    background-color: whitesmoke;
+    order: 1;
+}
+
+H1 {
+    margin-right: auto;
+}
+
+#linkbar {
+    font-size: 22px;
+    margin: 0 4px;  
+    padding: 5px;  
+    align-self: center;
+}
+
+a.link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    color: cornflowerblue;
+    background-color: whitesmoke;
+}
+
+main {
+    font-size: 14px;
+    padding: 10px;
+    border: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    order: 2;
+}
+
+footer {
+    padding: 20px 0px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: auto;
+    order: 3;
+}
+
+.about, .portfolio, .contact {
+    background-color: #428aa5; 
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.connect {
+    padding: 5px;
+    font-size: 16px;
+    max-width: 200px;
+    max-height: 150px;
+    justify-content: center;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    order: 1;
+    margin-top: 20px;
+    margin-right: 20px;
+    flex-shrink: 5;
+}
+
+a{
+    padding: 0 4px;
+}
+
+h2 {
+    color: #428aa5;
+}
+
+.connect > h2 {
+    font-size: 20px;
+}
+
+.skills > p, .intro > p {
+    background-color: whitesmoke;
+    max-width: 800px;
+    margin-left: auto;
+}
+
+img {
+    float: left;
+}
